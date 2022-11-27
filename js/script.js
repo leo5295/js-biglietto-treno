@@ -16,17 +16,19 @@ let price = km * 0.21
 //- 3 variare i costi in base all'età e ai km
 
 if (age < 18){
-    console.log(price - (price * 0.2))
+    console.log(finalprice = (price - (price * 0.2)))
 
 }
 else if (age > 65){
-    console.log(price - (price * 0.4))
+    console.log(finalprice = (price - (price * 0.4)))
 
 }
 
 else{
-    console.log(price)
+    console.log(finalprice = price)
 
 }
 
 //- 4 Risultato a schermo
+
+document.getElementById("price").innerHTML=finalprice;

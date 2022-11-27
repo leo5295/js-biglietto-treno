@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ticket{
+    background-color: rgb(238, 75, 75);
+    height: 200px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+    vertical-align: middle;
+}
