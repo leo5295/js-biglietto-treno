@@ -31,4 +31,4 @@ else{
 
 //- 4 Risultato a schermo
 
-document.getElementById("price").innerHTML=finalprice.toFixed(2);;
+document.getElementById("price").innerHTML=finalprice.toFixed(2);
